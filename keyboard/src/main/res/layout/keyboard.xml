@@ -14,62 +14,72 @@
 
         <Button
             android:id="@+id/button_1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="1"/>
 
         <Button
             android:id="@+id/button_2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="2"/>
 
         <Button
             android:id="@+id/button_3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="3"/>
 
         <Button
             android:id="@+id/button_4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="4"/>
 
         <Button
             android:id="@+id/button_5"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="5"/>
 
         <Button
             android:id="@+id/button_6"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="6"/>
 
         <Button
             android:id="@+id/button_7"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="7"/>
 
         <Button
             android:id="@+id/button_8"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="8"/>
 
         <Button
             android:id="@+id/button_9"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="9"/>
 
         <Button
             android:id="@+id/button_0"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="0"/>
 
     </LinearLayout>
@@ -77,7 +87,7 @@
 
         <LinearLayout
             android:id="@+id/keyboard_first_row"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/buttonSize"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_width="wrap_content"
@@ -86,70 +96,81 @@
 
             <Button
                 android:id="@+id/Q_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="Q"/>
 
             <Button
                 android:id="@+id/W_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="W"/>
 
             <Button
                 android:id="@+id/E_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="E"/>
 
             <Button
                 android:id="@+id/R_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="R"/>
 
             <Button
                 android:id="@+id/T_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="T"/>
 
             <Button
                 android:id="@+id/Y_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="Y"/>
 
             <Button
                 android:id="@+id/U_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="U"/>
 
             <Button
                 android:id="@+id/I_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="I"/>
 
             <Button
                 android:id="@+id/O_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="O"/>
 
             <Button
                 android:id="@+id/P_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="P"/>
 
 
             <ImageButton
                 android:id="@+id/ERASE_button"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
                 android:src="@drawable/keyboard_erase"
+                android:textSize="@dimen/buttonTextSize"
                 android:text="P"/>
 
     </LinearLayout>
@@ -164,62 +185,72 @@
 
         <Button
             android:id="@+id/A_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="A"/>
 
         <Button
             android:id="@+id/S_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="S"/>
 
         <Button
             android:id="@+id/D_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="D"/>
 
         <Button
             android:id="@+id/F_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="F"/>
 
         <Button
             android:id="@+id/G_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="G"/>
 
         <Button
             android:id="@+id/H_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="H"/>
 
         <Button
             android:id="@+id/J_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="J"/>
 
         <Button
             android:id="@+id/K_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="K"/>
 
         <Button
             android:id="@+id/L_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="L"/>
 
         <Button
             android:id="@+id/AT_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="@"/>
 
     </LinearLayout>
@@ -233,63 +264,73 @@
 
         <Button
             android:id="@+id/DOT_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="."/>
 
         <Button
             android:id="@+id/Z_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="Z"/>
 
         <Button
             android:id="@+id/X_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="X"/>
 
         <Button
             android:id="@+id/C_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="C"/>
 
         <Button
             android:id="@+id/V_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="V"/>
 
         <Button
             android:id="@+id/B_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="B"/>
 
         <Button
             android:id="@+id/N_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="N"/>
 
         <Button
             android:id="@+id/M_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="M"/>
 
         <Button
             android:id="@+id/DOWN_DASH_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="_"/>
 
         <Button
             android:id="@+id/DASH_button"
             android:src="@drawable/bottom_dash"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:textSize="@dimen/buttonTextSize"
             android:text="-"/>
 
 

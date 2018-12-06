@@ -10,7 +10,6 @@ import android.widget.LinearLayout;
 
 public class QwertyKeyboard extends LinearLayout {
 
-
     View rootView;
 
     Button button_1;
