@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Keyboard</string>
+    <string name="dash">-</string>
+    <string name="dash_bottom">_</string>
+</resources>
